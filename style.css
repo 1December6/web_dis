@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 6px;
+  background: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 9px 15px;
+  border: 1px solid #d9d6f5;
+  border-radius: 14px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: #7b5cff;
+}
+
+.nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1a3a;
+  text-decoration: none;
+}
+
+.cta {
+  margin-left: auto;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #7b5cff;
+  color: #fff;
+  font: 600 16px "Manrope", sans-serif;
+  
+}
