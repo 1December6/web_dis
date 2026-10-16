@@ -1,39 +1,58 @@
-body {
-  margin: 0;
-  padding: 6px;
-  background: #fff;
-  font-family: "Manrope", sans-serif;
+.header{
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 40PX;
+    padding-right: 40PX;
+    
+
+
+}
+.hover{
+    color: #0B6434 ;
+    width: 1440;
+    height: 3567;
+    top: 163px;
+    left: 302px;
+    
+   
+
+
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  padding: 9px 15px;
-  border: 1px solid #d9d6f5;
-  border-radius: 14px;
+.list-item{
+    margin-right: 75px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+.logo{
+
+} 
+
+}
+.warp{
+    justify-content: center;
+    justify-content: flex-end
+}
+.list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 26px;
 }
 
-.logo {
-  font-size: 20px;
-  font-weight: 800;
-  color: #7b5cff;
-}
+/* Grocery Landing Page Design */
 
-.nav a {
-  font-size: 16px;
-  font-weight: 500;
-  color: #1c1a3a;
-  text-decoration: none;
-}
+position: absolute;
+width: 1440px;
+height: 3376px;
+left: 0px;
+top: 0px;
 
-.cta {
-  margin-left: auto;
-  padding: 9px 14px;
-  border: 0;
-  border-radius: 8px;
-  background: #7b5cff;
-  color: #fff;
-  font: 600 16px "Manrope", sans-serif;
-  
-}
+background: #F5F5F5;
+
+
